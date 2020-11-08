@@ -1,0 +1,53 @@
+@import "./reset.css";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 26px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 15px;
+}
+.header span {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.expense_table {
+  margin-bottom: 28px;
+  width: 100%;
+}
+.expense_table .notice {
+  padding: 14px;
+}
+.expense_table .notice span {
+  color: #fd79a8;
+}
+.expense_table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.expense_table table th,
+.expense_table table td {
+  font-size: 14px;
+  height: 55px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+.expense_table table td a {
+  text-decoration: none;
+  color: #fd79a8;
+}
