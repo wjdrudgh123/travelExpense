@@ -29,15 +29,16 @@
   margin-bottom: 28px;
   width: 100%;
 }
+.expense_table table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
 .expense_table .notice {
   padding: 14px;
 }
 .expense_table .notice span {
   color: #fd79a8;
-}
-.expense_table table {
-  width: 100%;
-  border-collapse: collapse;
 }
 .expense_table table th,
 .expense_table table td {
